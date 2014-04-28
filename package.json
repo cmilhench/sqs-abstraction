@@ -1,0 +1,32 @@
+{
+  "name": "sqs-abstraction",
+  "version": "0.1.0",
+  "description": "Abstraction interface to amazon's simple queue service",
+  "keywords": [
+    "sqs",
+    "sqs-abstraction",
+    "abstraction",
+    "queue"
+  ],
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -R spec -t 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cmilhench/sqs-abstraction.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cmilhench/sqs-abstraction/issues"
+  },
+  "author": "Colin Milhench <colin@milhen.ch> (http://milhen.ch/)",
+  "license": "MIT","dependencies": {
+    "aws-sdk": "~2.0.0-rc13"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}

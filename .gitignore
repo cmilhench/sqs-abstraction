@@ -1,0 +1,26 @@
+# OS (Mac OSX)
+.DS_store
+*/.DS_store
+
+# Node JS
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+tmp
+
+npm-debug.log
+node_modules
+
+# Textmate
+*.tmproj
+*.tmproject
+tmtags
